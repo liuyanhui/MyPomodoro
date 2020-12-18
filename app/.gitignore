@@ -1,0 +1,7 @@
+/build
+.gradle
+/app/build
+/release/MyPomodoro.apk
+
+/build
+*.iml
