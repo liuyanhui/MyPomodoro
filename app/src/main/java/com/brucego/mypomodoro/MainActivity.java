@@ -77,7 +77,7 @@ public class MainActivity extends AppCompatActivity {
             countDownTimer.cancel();
             countDownTimer = null;
         }
-        int totalMillisecond = Integer.valueOf(total.getText().toString()) * 60 * 1000;
+        int totalMillisecond = (int) (Float.valueOf(total.getText().toString()) * 60 * 1000);
 //        totalMillisecond = 3 * 1000;
         countDownTimer = new CountDownTimer(totalMillisecond, 1000) {
             @Override
@@ -119,7 +119,7 @@ public class MainActivity extends AppCompatActivity {
                 .setContentIntent(pendingIntent)
                 .setSound(Uri.withAppendedPath(MediaStore.Audio.Media.INTERNAL_CONTENT_URI, "5"))
                 .setDefaults(Notification.DEFAULT_ALL)
-                .setVibrate(new long[] {0,300,500,700})
+                .setVibrate(new long[]{0, 300, 500, 700})
                 .build();
         notificationManager.notify(1, notification);
     }
