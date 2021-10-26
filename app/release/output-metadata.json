@@ -11,8 +11,8 @@
       "type": "SINGLE",
       "filters": [],
       "versionCode": 1,
-      "versionName": "1.0",
-      "outputFile": "MyPomodoro.apk"
+      "versionName": "0.2",
+      "outputFile": "MyPomodoro_v0.2.apk"
     }
   ]
 }

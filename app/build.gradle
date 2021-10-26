@@ -11,7 +11,7 @@ android {
         minSdkVersion 28
         targetSdkVersion 30
         versionCode 1
-        versionName "1.0"
+        versionName "0.2"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
@@ -31,7 +31,7 @@ android {
         variant ->
             variant.outputs.all {
                 //在这里修改apk文件名，引号内的字符串都可以随便定义
-                outputFileName = "MyPomodoro.apk"
+                outputFileName = "MyPomodoro_v0.2.apk"
             }
     }
 }
